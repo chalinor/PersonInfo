@@ -15,13 +15,16 @@ public class PersonSalary {
 		return status;
 	}
 
-
-	public void displaySalary(){
+	public void calculateSalary(){
 		if (status.equals("FT")){
 			System.out.println("The employee's salary is: $"+FT+"NZD");
 		}
 		else if(status.equals("PT")){
 			System.out.println("The employee's salary is $" +PT+ "NZD");
 		}
+	}
+
+	public void displaySalary(){
+	 calculateSalary();
 	}
 }
