@@ -11,6 +11,14 @@ public class PersonSalary {
 		PT = 1000;
 	}
 
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
 	public void displaySalary(){
 		if (status.equals("FT")){
 			System.out.println("The employee's salary is: $"+FT+"NZD");
