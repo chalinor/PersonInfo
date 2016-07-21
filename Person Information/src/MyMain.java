@@ -2,7 +2,7 @@
 public class MyMain {
 
 	public static void main(String[] args) {
-		PersonInfo person1 = new PersonInfo ("PT", "John Doe", "0123456", "American");
+		PersonInfo person1 = new PersonInfo ("PT", "John Doe", "0123456", "Italian");
 		person1.displayInfo();
 		person1.displaySalary();
 		
