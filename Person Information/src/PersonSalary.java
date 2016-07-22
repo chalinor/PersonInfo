@@ -18,6 +18,7 @@ public class PersonSalary {
 			System.out.println("The employee's salary is: $"+FT+"NZD");
 		}
 		else if(status.equals("PT")){
+			PT = FT/3; //updated part salary formula
 			System.out.println("The employee's salary is $" +PT+ "NZD");
 		}
 	}
