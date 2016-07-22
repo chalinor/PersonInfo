@@ -11,10 +11,9 @@ public class PersonSalary {
 		PT = 1000;
 	}
 
-
-
 	public void calculateSalary(){
 		if (status.equals("FT")){
+			FT = FT*2; //updated salary formula
 			System.out.println("The employee's salary is: $"+FT+"NZD");
 		}
 		else if(status.equals("PT")){
