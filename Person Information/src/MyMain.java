@@ -12,6 +12,10 @@ public class MyMain {
 		person2.displayInfo();
 		person2.displaySalary();
 		
+		PersonInfo person3 = new PersonInfo ("FT","Nick Ross", "0124565", "French");
+		person3.displayInfo();
+		person3.displaySalary();
+		
 	}
 
 }
