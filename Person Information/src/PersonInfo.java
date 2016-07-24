@@ -1,21 +1,22 @@
 
 public class PersonInfo extends PersonSalary{
 
-
 	private String name;
 	private String contact;
 	private String nationality;
+	private String gender;
 	
 /*	public PersonInfo(String status) {
 		super(status);
 		
 	}*/
 
-	public PersonInfo(String status, String name, String contact, String nationality) {
+	public PersonInfo(String status, String name, String contact, String nationality, String gender) {
 		super(status);
 		this.name = name;
 		this.contact = contact;
 		this.nationality = nationality;
+		this.gender = gender;
 	}
 
 	public String getName() {
