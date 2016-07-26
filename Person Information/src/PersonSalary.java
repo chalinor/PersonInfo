@@ -7,8 +7,8 @@ public class PersonSalary {
 	
 	public PersonSalary(String status) {
 		this.status = status;
-		FT = 4000;
-		PT = 1000;
+		FT = 5000;
+		PT = 2500;
 	}
 
 	public void calculateSalary(){
